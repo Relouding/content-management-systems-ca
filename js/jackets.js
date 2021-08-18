@@ -1,13 +1,11 @@
 const baseUrl = "https://wordpress.relouding.eu/wp-json/wc/store/products"
 const productContainer = document.querySelector(".product-container-new")
 
-
 fetch("https://wordpress.relouding.eu/wp-json/wc/store/products")
 .then(response => response.json())
 .then(data => {
 console.log(data)
 })
-
 
 async function getProducts(url){
     const response = await fetch(url);
