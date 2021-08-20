@@ -61,6 +61,15 @@
       margin: 1.5% .0% 1.5%;
     }
 
+    .h3 {
+      font-family: arial;
+      font-size: 130%;
+      font-weight: bold;
+      color: #2E2E2E;
+      text-align: center;
+      margin: 1.5% .0% 1.5%;
+    }
+
     .header h1 {
       font-family: bebas;
       font-size: 500%;
@@ -527,4 +536,64 @@
       max-width: 1250px;
       width: 100%;
       margin: 0 auto;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+
+
+    .product-new {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      font-family: arial;
+      font-size: 15px;
+      max-width: 400px;
+      width: 100%;
+      padding: 5px;
+      margin: 0 auto;
+      border-radius: 2px;
+      background: rgb(236, 236, 236);
+      overflow: hidden;
+    }
+
+    .product-new img {
+      display: block;
+      max-width: 400px;
+      width: 100%;
+      margin: auto;
+    }
+
+    .nam-new {
+      margin: auto 0;
+    }
+
+    .des-new {
+      margin: auto 0;
+      padding: 10px;
+    }
+
+    .pri-new {
+      margin: auto 0;
+    }
+
+    .see-more-new {
+      float: left;
+      max-width: 100px;
+      background: gray;
+    }
+    
+    .add-to-cart-new {
+      float: right;
+      max-width: 100px;
+    }
+
+    .info-container-new {
+      max-width: 600px;
+      margin: 0 auto;
+      display: block;
+    }
+
+    .info-container-new img {
+      margin: auto;
     }
